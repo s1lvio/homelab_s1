@@ -169,15 +169,3 @@ Por segurança, garanta que apenas as portas essenciais do servidor fiquem abert
     sudo ufw enable
     ```
     
-
-## 🌐 Próximos Passos: Interface Gráfica
-
-Parabéns! Toda a camada crítica e os serviços base estão operacionais via terminal. Agora o restante das etapas pode ser feito visualmente de forma confortável.
-
-Abra o seu navegador web favorito em qualquer outro computador ou celular conectado na sua rede local e digite o IP do servidor:
-
-```
-[https://192.168.0.152](https://192.168.0.152)
-```
-
-> ⚠️ **Nota:** Como utilizamos um certificado SSL autoassinado (`self-signed`), seu navegador exibirá um alerta de segurança na primeira visita informando que o site não é reconhecido por uma autoridade certificadora global. Isso é normal e esperado para ambientes locais. Basta clicar em **Avançado** e selecionar **Continuar para o site (não seguro)** para acessar seu Nextcloud.
