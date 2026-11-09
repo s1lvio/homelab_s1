@@ -168,4 +168,18 @@ Por segurança, garanta que apenas as portas essenciais do servidor fiquem abert
     ```
     sudo ufw enable
     ```
+## Servidor com erro de Certificado no navegor
+
+alterar o arquivo config.php na pasta 
+/var/snap/nextcloud/current/nextcloud/config
+
+há um arquivo na pasta como exemplo: config.sample.php
+
+exemplo do google adicionando domínios confiáveis com incremental de identificação
+```php
+'trusted_domains' => array (
+  0 => '192.168.0.29', // Old IP or domain
+  1 => 'cloud.example.com', // New domain
+),
+```
     
